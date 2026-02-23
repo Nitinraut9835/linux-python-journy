@@ -1,10 +1,25 @@
-# Linux & Python Journey
+# Linux & Python System Engineering Journey
 
-Goal: Become strong in Linux and automation.
+This repository documents my structured 3-month journey to strengthen:
 
-Topics:
-- Linux file system
-- Permissions
+- Linux fundamentals
+- System administration concepts
 - Process management
-- Python scripting
-- Automation projects
+- Python automation
+- Monitoring tools
+
+---
+
+## 📅 Progress
+
+### Day 01
+- Linux filesystem practice
+- Permissions
+- Process basics
+- File automation scripts
+
+### Day 02
+- Services & systemd
+- Package management (APT)
+- Environment variables
+- Built real-time process monitoring script
