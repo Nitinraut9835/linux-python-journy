@@ -33,3 +33,21 @@ This repository documents my structured 3-month journey to strengthen:
 - Practiced log investigation (/var/log, journalctl)
 - Debugged nginx using systemctl and logs
 - Learned reload vs restart difference
+
+### Mini Project – Nginx Log Monitor
+
+Built a Bash script that:
+
+- Reads nginx access log
+- Counts total requests for today
+- Counts 404 errors
+- Calculates 404 error percentage
+- Prints formatted daily report
+
+Concepts Used:
+- grep
+- awk
+- wc
+- date
+- conditional logic
+- shell arithmetic

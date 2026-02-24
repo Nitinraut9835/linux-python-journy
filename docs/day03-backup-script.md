@@ -41,3 +41,9 @@
 3. nginx -t
 4. Fix config
 5. reload instead of restart (safer)
+
+## Built nginx log monitoring script
+  - Counts total requests
+  - Counts 404 errors
+  - Calculates error percentage
+  - Generates daily report
