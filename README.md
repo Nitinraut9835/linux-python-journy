@@ -23,3 +23,9 @@ This repository documents my structured 3-month journey to strengthen:
 - Package management (APT)
 - Environment variables
 - Built real-time process monitoring script
+
+### Day 03
+- Built Bash backup automation script
+- Learned positional arguments ($1)
+- Learned directory validation (-d)
+- Understood relative vs absolute paths
