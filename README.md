@@ -29,3 +29,7 @@ This repository documents my structured 3-month journey to strengthen:
 - Learned positional arguments ($1)
 - Learned directory validation (-d)
 - Understood relative vs absolute paths
+- Introduced cron job scheduling
+- Practiced log investigation (/var/log, journalctl)
+- Debugged nginx using systemctl and logs
+- Learned reload vs restart difference
