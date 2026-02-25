@@ -51,3 +51,10 @@ Concepts Used:
 - date
 - conditional logic
 - shell arithmetic
+
+### API Integration
+- Created Python virtual environment
+- Installed requests safely
+- Called GitHub public API
+- Parsed JSON response
+- Handled exceptions
