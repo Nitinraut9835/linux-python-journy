@@ -58,3 +58,11 @@ Concepts Used:
 - Called GitHub public API
 - Parsed JSON response
 - Handled exceptions
+
+### Day 04
+- Deep log analysis using journalctl
+- Learned log priorities and filtering
+- Practiced authentication log monitoring
+- Built structured troubleshooting workflow
+- Understood network vs service vs DNS issues
+- Learned HTTP vs HTTPS debugging logic
