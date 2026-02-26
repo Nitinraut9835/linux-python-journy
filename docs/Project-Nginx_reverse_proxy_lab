@@ -1,0 +1,77 @@
+# Nginx Reverse Proxy Lab – Beginner DevOps Project
+
+## 📌 Project Overview
+
+This project demonstrates how to configure Nginx as a reverse proxy in front of a Python backend server.
+
+The goal of this project was to understand:
+
+- Reverse proxy architecture
+- HTTP status codes (200, 404, 500, 502)
+- Log analysis
+- Service troubleshooting
+- Production-like failure simulation
+
+---
+
+## 🏗 Architecture
+
+Client → Nginx (Port 80) → Python Backend (Port 5000)
+
+- Nginx forwards incoming requests to the backend server
+- Python backend handles application logic
+- Logs are analyzed using Linux commands
+
+---
+
+## ⚙️ Technologies Used
+
+- Nginx
+- Python (built-in HTTP server)
+- Linux
+- systemctl
+- journalctl
+- grep, wc, tail
+- curl
+
+---
+
+## 🚀 Features Implemented
+
+✔ Configured Nginx as a reverse proxy  
+✔ Built a simple Python backend server  
+✔ Generated different HTTP responses:
+- 200 OK  
+- 404 Not Found  
+- 500 Internal Server Error  
+
+✔ Simulated backend failure to produce:
+- 502 Bad Gateway  
+
+✔ Analyzed:
+- /var/log/nginx/access.log
+- /var/log/nginx/error.log
+
+✔ Used journalctl for service troubleshooting  
+
+---
+
+## 🧪 Failure Simulation
+
+When the backend server was stopped:
+
+- Nginx returned **502 Bad Gateway**
+- Error logs showed upstream connection failure
+- Access logs recorded failed requests
+
+This simulates a real production incident scenario.
+
+---
+
+## 📊 Log Analysis Examples
+
+```bash
+grep 404 /var/log/nginx/access.log
+grep 500 /var/log/nginx/access.log
+grep 502 /var/log/nginx/access.log
+wc -l /var/log/nginx/access.log

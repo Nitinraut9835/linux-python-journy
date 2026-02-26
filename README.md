@@ -66,3 +66,24 @@ Concepts Used:
 - Built structured troubleshooting workflow
 - Understood network vs service vs DNS issues
 - Learned HTTP vs HTTPS debugging logic
+
+### Mini Project – Nginx Reverse Proxy Lab
+
+Built a production-style reverse proxy setup:
+
+- Configured Nginx as a reverse proxy to a Python backend
+- Implemented backend service on port 5000
+- Tested HTTP responses (200, 404, 500)
+- Simulated backend failure to generate 502 Bad Gateway
+- Analyzed access and error logs
+- Investigated service failures using systemctl and journalctl
+- Practiced reload vs restart behavior
+
+Concepts Used:
+
+- Reverse proxy architecture
+- HTTP status codes
+- Linux log analysis
+- Service management (systemd)
+- curl-based endpoint testing
+- Basic incident troubleshooting
