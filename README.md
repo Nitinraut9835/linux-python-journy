@@ -87,3 +87,13 @@ Concepts Used:
 - Service management (systemd)
 - curl-based endpoint testing
 - Basic incident troubleshooting
+
+### Day 05
+- Learned Docker fundamentals
+- Understood image vs container
+- Compared containers with VMs
+- Installed Docker on Ubuntu
+- Ran first container (hello-world)
+- Deployed nginx inside container
+- Practiced port mapping
+- Understood host binding and network accessibility
