@@ -97,3 +97,7 @@ Concepts Used:
 - Deployed nginx inside container
 - Practiced port mapping
 - Understood host binding and network accessibility
+
+### Day 06
+
+- Built first Docker image and ran container successfully

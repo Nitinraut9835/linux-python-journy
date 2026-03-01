@@ -1,0 +1,9 @@
+Day 5: Docker Basics – Built and Ran First Custom Image
+
+- Created first Dockerfile
+- Built custom Python Docker image
+- Understood image vs container concept
+- Implemented file writing inside container (output.txt)
+- Learned Docker build process and layers
+- Ran containers and inspected lifecycle
+- Practiced docker images, docker ps, and logs
