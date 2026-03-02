@@ -101,3 +101,10 @@ Concepts Used:
 ### Day 06
 
 - Built first Docker image and ran container successfully
+
+### Day 07
+
+🚀 Mini Project – Study Logger
+-Built a CLI-based Python Study Logger
+-Logged study topic with date & time
+-Containerized the application and ran it in interactive mode
