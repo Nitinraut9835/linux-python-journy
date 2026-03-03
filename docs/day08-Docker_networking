@@ -1,0 +1,35 @@
+# Day 5 – Docker Networking (Hands-On)
+
+## Objective
+Understand Docker port mapping and container networking through practical testing.
+
+## What I Practiced
+
+- Ran Nginx container in detached mode
+- Exposed container port using `-p HOST:CONTAINER`
+- Tested service using curl
+- Ran multiple containers with different host ports
+- Observed container lifecycle behavior
+- Used docker inspect and docker network commands
+
+## Commands Used
+
+sudo docker run -d -p 8081:80 --name nginx1 nginx
+sudo docker run -d -p 8082:80 --name nginx2 nginx
+sudo docker ps
+curl localhost:8081
+curl localhost:8082
+sudo docker stop nginx1
+sudo docker start nginx1
+sudo docker network ls
+
+## Key Learnings
+
+- Containers are isolated and can use the same internal port.
+- Host ports must be unique.
+- Port mapping works only when container is running.
+- `docker run` creates a new container.
+- `docker start` restarts an existing container.
+- Docker uses bridge network by default.
+
+✅ Successfully implemented Docker networking on Raspberry Pi Linux.

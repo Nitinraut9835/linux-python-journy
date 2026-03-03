@@ -108,3 +108,15 @@ Concepts Used:
 -Built a CLI-based Python Study Logger
 -Logged study topic with date & time
 -Containerized the application and ran it in interactive mode
+
+### Day 08
+
+Docker Networking
+
+- Practiced port mapping using `-p`
+- Ran multiple Nginx containers simultaneously
+- Tested networking using curl
+- Understood bridge network behavior
+- Learned container lifecycle impact on ports
+
+Completed hands-on Docker networking practice.
