@@ -1,10 +1,10 @@
 Day 5 Mini Project: Dockerized Study Logger (CLI App)
 
-- Created interactive Python study logger application
-- Implemented date & time logging using datetime module
+- Created interactive Python study logger application.
+- Implemented date & time logging using datetime module.
 - Appended study entries to study_log.txt
-- Created Dockerfile for containerizing the application
-- Built custom Docker image (study-logger)
-- Ran container in interactive mode using -it flag
-- Understood container lifecycle and temporary filesystem behavior
-- Identified need for volumes for persistent storage
+- Created Dockerfile for containerizing the application.
+- Built custom Docker image (study-logger).
+- Ran container in interactive mode using -it flag.
+- Understood container lifecycle and temporary filesystem behavior.
+- Identified need for volumes for persistent storage.
