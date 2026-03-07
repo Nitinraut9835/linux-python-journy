@@ -1,0 +1,13 @@
+-builds images automatically
+-creates containers
+-creates a private network
+-runs services together
+-stops and removes everything with one command
+
+Key command we used:
+
+docker compose up
+docker compose logs
+docker compose down
+docker ps
+docker network ls
