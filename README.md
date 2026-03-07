@@ -1,4 +1,4 @@
-# Linux & Python System Engineering Journey
+]# Linux & Python System Engineering Journey
 
 This repository documents my structured 3-month journey to strengthen:
 
@@ -124,5 +124,18 @@ Completed hands-on Docker networking practice.
 
 ### Day 09
 
-Docker compose
+### Docker Compose: Flask + Nginx
 
+Built a multi-container application using Docker Compose.
+
+Components:
+- Flask Python web application
+- Nginx web server
+
+Commands used:
+docker compose up --build
+docker compose down
+
+Ports:
+Flask → localhost:5000
+Nginx → localhost:8080
