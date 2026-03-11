@@ -139,3 +139,22 @@ docker compose down
 Ports:
 Flask → localhost:5000
 Nginx → localhost:8080
+
+### Dockerized Log Monitoring System
+
+This project demonstrates a simple containerized web architecture using Flask, Nginx, and Docker Compose. 
+Nginx acts as a reverse proxy and forwards requests to a Flask application running in a separate container.
+
+The project also includes basic log monitoring using Docker logs and Linux command-line tools to analyze web traffic.
+
+Key Concepts Practiced:
+- Docker containerization
+- Docker Compose service orchestration
+- Nginx reverse proxy configuration
+- Container networking
+- API testing with curl
+- Log monitoring and analysis using grep, awk, sort, and uniq
+
+Architecture:
+
+User Request → Nginx Reverse Proxy → Flask API → Response
