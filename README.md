@@ -140,6 +140,8 @@ Ports:
 Flask → localhost:5000
 Nginx → localhost:8080
 
+### Day 10
+
 ### Dockerized Log Monitoring System
 
 This project demonstrates a simple containerized web architecture using Flask, Nginx, and Docker Compose. 
