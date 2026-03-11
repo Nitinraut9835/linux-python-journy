@@ -1,0 +1,103 @@
+# Day 10 — Dockerized Log Monitoring System (Nginx + Flask)
+
+## Objective
+Today I built a Dockerized log monitoring system to practice containerization, reverse proxy configuration, and basic log analysis.
+
+## What I Built
+I created a small project where:
+- A Flask API runs inside a Docker container.
+- Nginx acts as a reverse proxy.
+- Docker Compose manages both containers.
+- Requests go through Nginx and are forwarded to the Flask application.
+- Logs are generated and analyzed using Linux command-line tools.
+
+## Architecture
+
+User Request  
+↓  
+Nginx Reverse Proxy (Container)  
+↓  
+Flask API (Container)  
+↓  
+Access Logs  
+↓  
+Log Analysis using Linux CLI Tools  
+
+## Project Structure
+
+log_monitoring_project
+│
+├── app
+│   ├── app.py
+│   ├── requirements.txt
+│   └── Dockerfile
+│
+├── nginx
+│   └── nginx.conf
+│
+├── logs
+├── scripts
+│
+└── docker-compose.yml
+
+## Technologies Used
+
+Docker  
+Docker Compose  
+Nginx  
+Flask (Python)  
+Linux CLI Tools  
+curl
+
+## API Endpoints
+
+/
+ /hello
+ /status
+
+Test endpoints using:
+
+curl http://localhost:8080
+curl http://localhost:8080/hello
+curl http://localhost:8080/status
+
+## Viewing Logs
+
+docker logs nginx_server
+
+## Log Analysis Examples
+
+Count total requests:
+
+docker logs nginx_server | wc -l
+
+Filter endpoint requests:
+
+docker logs nginx_server | grep hello
+
+Find most requested endpoint:
+
+docker logs nginx_server | awk '{print $7}' | sort | uniq -c | sort -nr
+
+## Skills Practiced
+
+Docker containerization  
+Docker Compose orchestration  
+Nginx reverse proxy configuration  
+Container networking  
+API testing using curl  
+Log monitoring  
+Linux log analysis
+
+## Key Takeaways
+
+Docker simplifies application deployment.  
+Nginx can be used as a reverse proxy to route traffic.  
+Logs are essential for debugging and monitoring systems.  
+Linux command-line tools are powerful for analyzing logs.
+
+## Next Improvements
+
+Store Nginx logs persistently  
+Create automated log analysis scripts  
+Add monitoring dashboards
