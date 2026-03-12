@@ -160,3 +160,18 @@ Key Concepts Practiced:
 Architecture:
 
 User Request → Nginx Reverse Proxy → Flask API → Response
+
+### Day 11 
+
+### GitHub Actions CI
+
+Created first CI pipeline using GitHub Actions.
+
+Workflow:
+- Trigger on push to main branch
+- Runner: ubuntu-latest
+- Install Python and Flask dependency
+- Execute Python application
+
+Purpose:
+Automatically validate code execution on every push using CI.
